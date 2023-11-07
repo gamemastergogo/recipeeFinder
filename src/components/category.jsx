@@ -2,7 +2,7 @@
 import {FaPizzaSlice,FaHamburger,FaPepperHot} from "react-icons/fa";
 import {GiNoodles,GiChopsticks} from "react-icons/gi";
 import styled from "styled-components";
-import { NavLink,Slink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Category() {
   return (

@@ -32,6 +32,7 @@ headers.append('Access-Control-Allow-Credentials', 'true');
   };
 useEffect(()=>{
   fetchDetails();
+  // eslint-disable-next-line
 },[params.name]);
 
 return (

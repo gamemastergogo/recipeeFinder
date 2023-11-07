@@ -12,7 +12,8 @@ function Search() {
         e.preventDefault();
         navigate('/searched/' + input);
     };
-    const [isActive,setActive]=useState(false);
+    // const [isActive,setActive]=useState(false);
+    const isActive  = true;
   return (
     <>
     {isActive===false?<FormStyle onSubmit={submitHandler}>
